@@ -12,8 +12,14 @@ function Characters() {
         </div>
         <div class="bannerChiho"></div>
         <div class="hide">
-          Nakano Chiho, your childhood friend and potential girlfriend / wife of
-          Yoshioka-senpai.
+          Yoshioka-Senpai, a student a year above you and Chiho. He and Chiho
+          both attend the art club and is your rival for her affection. In the
+          future, he marries Chiho.
+        </div>
+        <div class="bannerChiho"></div>
+        <div class="hide">
+          Yuu, The protagonist and his actions are determined by you. Will you
+          accept the unfortunate reality or will you fight it?
         </div>
       </p>
     </div>

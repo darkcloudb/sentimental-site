@@ -209,12 +209,17 @@ p::first-letter {
   align-items: center;
   border: 1px solid black;
   border-radius: 25px;
+  font-family: cursive;
   padding: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  height: 266px;
+  width: 266px;
 }
 
 .stickyChar {
   display: flex;
-  justify-content: block;
+  justify-content: space-evenly;
   background-color: lightgoldenrodyellow;
   box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.7);
   height: auto;
