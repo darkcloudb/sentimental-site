@@ -198,3 +198,24 @@ p::first-letter {
   margin-left: 5%;
   margin-right: 5%;
 }
+
+/* **************Character****************** */
+.hide {
+  display: none;
+}
+
+.bannerChiho:hover + .hide {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 1%;
+}
+
+.stickyChar {
+  display: flex;
+  justify-content: block;
+  background-color: lightgoldenrodyellow;
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.7);
+  height: auto;
+}
