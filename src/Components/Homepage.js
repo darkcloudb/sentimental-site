@@ -10,8 +10,15 @@ function Homepage() {
       <div class="chalkboard">
         {" "}
         What's New:
+        <ul>1/4/2022 Website Development began!</ul>
         <ul>
-          Demo Version 1.02 out now!&nbsp;
+          12/24/2021 Demo Version 1.02 almost out!&nbsp;
+          <a class="nocss" href="/download/">
+            More Info
+          </a>
+        </ul>
+        <ul>
+          10/30/2021 Demo Version 1.01 out now!&nbsp;
           <a class="nocss" href="/download/">
             More Info
           </a>
