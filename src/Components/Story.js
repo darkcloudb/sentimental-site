@@ -33,6 +33,35 @@ function Story() {
           care?
         </p>
       </div>
+      <div class="footer">
+        <a class="Split" href="/">
+          Top
+        </a>
+        <a class="Split" href="/concept">
+          Concept
+        </a>
+        <a class="Split" href="/story">
+          Story
+        </a>
+        <a class="Split" href="/chars">
+          Characters
+        </a>
+        <a class="Split" href="/graphic">
+          Graphic
+        </a>
+        <a class="Split" href="/system">
+          System
+        </a>
+        <a class="Split" href="/download">
+          Download
+        </a>
+        <a class="Split" href="/special">
+          Special
+        </a>
+        <a class="Split" href="/spec">
+          Spec
+        </a>
+      </div>
     </div>
   );
 }
