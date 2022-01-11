@@ -2,39 +2,40 @@ import React from "react";
 import choice from "../img/choice.png";
 import outcome from "../img/outcome.png";
 import logo from "../img/logo.png";
+import { Link } from "react-router-dom";
 
 function System() {
   return (
     <div class="white">
       <div class="NavBar">
         <img class="Icon" src={logo} alt="icon"></img>
-        <a class="Split" href="/sentimental-site">
+        <Link class="Split" to="/">
           Top
-        </a>
-        <a class="Split" href="/sentimental-site/concept">
+        </Link>
+        <Link class="Split" to="/concept">
           Concept
-        </a>
-        <a class="Split" href="/sentimental-site/story">
+        </Link>
+        <Link class="Split" to="/story">
           Story
-        </a>
-        <a class="Split" href="/sentimental-site/chars">
+        </Link>
+        <Link class="Split" to="/chars">
           Characters
-        </a>
-        <a class="Split" href="/sentimental-site/graphic">
+        </Link>
+        <Link class="Split" to="/graphic">
           Graphic
-        </a>
-        <a class="Split" href="/sentimental-site/system">
+        </Link>
+        <Link class="Split" to="/system">
           System
-        </a>
-        <a class="Split" href="/sentimental-site/download">
+        </Link>
+        <Link class="Split" to="/download">
           Download
-        </a>
-        <a class="Split" href="/sentimental-site/special">
+        </Link>
+        <Link class="Split" to="/special">
           Special
-        </a>
-        <a class="Split" href="/sentimental-site/spec">
+        </Link>
+        <Link class="Split" to="/spec">
           Spec
-        </a>
+        </Link>
       </div>
       <div class="paper">
         <div class="title">SYSTEM</div>
@@ -54,33 +55,33 @@ function System() {
           </p>
         </div>
         <div class="footer">
-          <a class="Split" href="/sentimental-site">
+          <Link class="Split" to="/">
             Top
-          </a>
-          <a class="Split" href="/sentimental-site/concept">
+          </Link>
+          <Link class="Split" to="/concept">
             Concept
-          </a>
-          <a class="Split" href="/sentimental-site/story">
+          </Link>
+          <Link class="Split" to="/story">
             Story
-          </a>
-          <a class="Split" href="/sentimental-site/chars">
+          </Link>
+          <Link class="Split" to="/chars">
             Characters
-          </a>
-          <a class="Split" href="/sentimental-site/graphic">
+          </Link>
+          <Link class="Split" to="/graphic">
             Graphic
-          </a>
-          <a class="Split" href="/sentimental-site/system">
+          </Link>
+          <Link class="Split" to="/system">
             System
-          </a>
-          <a class="Split" href="/sentimental-site/download">
+          </Link>
+          <Link class="Split" to="/download">
             Download
-          </a>
-          <a class="Split" href="/sentimental-site/special">
+          </Link>
+          <Link class="Split" to="/special">
             Special
-          </a>
-          <a class="Split" href="/sentimental-site/spec">
+          </Link>
+          <Link class="Split" to="/spec">
             Spec
-          </a>
+          </Link>
         </div>
       </div>
     </div>

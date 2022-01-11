@@ -9,31 +9,31 @@ function Homepage() {
     <div class="white">
       <div class="NavBar">
         <img class="Icon" src={logo}></img>
-        <Link class="Split" href="/sentimental-site">
+        <Link class="Split" to="/">
           Top
         </Link>
-        <Link class="Split" href="/sentimental-site/concept">
+        <Link class="Split" to="/concept">
           Concept
         </Link>
-        <Link class="Split" href="/sentimental-site/story">
+        <Link class="Split" to="/story">
           Story
         </Link>
-        <Link class="Split" href="/sentimental-site/chars">
+        <Link class="Split" to="/chars">
           Characters
         </Link>
-        <Link class="Split" href="/sentimental-site/graphic">
+        <Link class="Split" to="/graphic">
           Graphic
         </Link>
-        <Link class="Split" href="/sentimental-site/system">
+        <Link class="Split" to="/system">
           System
         </Link>
-        <Link class="Split" href="/sentimental-site/download">
+        <Link class="Split" to="/download">
           Download
         </Link>
-        <Link class="Split" href="/sentimental-site/special">
+        <Link class="Split" to="/special">
           Special
         </Link>
-        <Link class="Split" href="/sentimental-site/spec">
+        <Link class="Split" to="/spec">
           Spec
         </Link>
       </div>
@@ -57,59 +57,59 @@ function Homepage() {
           <ul>1/4/2022 Website Development began!</ul>
           <ul>
             12/24/2021 Demo Version 1.02 almost out!&nbsp;
-            <Link class="nocss" href="/download/">
+            <Link class="nocss" to="/download/">
               More Info
             </Link>
           </ul>
           <ul>
             10/30/2021 Demo Version 1.01 out now!&nbsp;
-            <Link class="nocss" href="/download/">
+            <Link class="nocss" to="/download/">
               More Info
             </Link>
           </ul>
         </div>
         <div class="container">
-          <Link class="nocss" href="/sentimental-site/story/">
+          <Link class="nocss" to="/story/">
             <div class="banner">Story</div>
           </Link>
-          <Link class="nocss" href="/sentimental-site/chars/">
+          <Link class="nocss" to="/chars/">
             <div class="banner">Characters</div>
           </Link>
         </div>
         <div class="container">
-          <Link class="nocss" href="/sentimental-site/download/">
+          <Link class="nocss" to="/download/">
             <div class="banner">Download</div>
           </Link>
-          <Link class="nocss" href="/sentimental-site/spec/">
+          <Link class="nocss" to="/spec/">
             <div class="banner">About</div>
           </Link>
         </div>
         <div class="footer">
-          <Link class="Split" href="/sentimental-site">
+          <Link class="Split" to="/">
             Top
           </Link>
-          <Link class="Split" href="/sentimental-site/concept">
+          <Link class="Split" to="/concept">
             Concept
           </Link>
-          <Link class="Split" href="/sentimental-site/story">
+          <Link class="Split" to="/story">
             Story
           </Link>
-          <Link class="Split" href="/sentimental-site/chars">
+          <Link class="Split" to="/chars">
             Characters
           </Link>
-          <Link class="Split" href="/sentimental-site/graphic">
+          <Link class="Split" to="/graphic">
             Graphic
           </Link>
-          <Link class="Split" href="/sentimental-site/system">
+          <Link class="Split" to="/system">
             System
           </Link>
-          <Link class="Split" href="/sentimental-site/download">
+          <Link class="Split" to="/download">
             Download
           </Link>
-          <Link class="Split" href="/sentimental-site/special">
+          <Link class="Split" to="/special">
             Special
           </Link>
-          <Link class="Split" href="/sentimental-site/spec">
+          <Link class="Split" to="/spec">
             Spec
           </Link>
         </div>

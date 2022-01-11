@@ -4,39 +4,40 @@ import screenshot from "../img/screenshot.png";
 import SL from "../img/sentimental.jpeg";
 import yuna from "../img/yuna itou.jpeg";
 import logo from "../img/logo.png";
+import { Link } from "react-router-dom";
 
 function Download() {
   return (
     <div class="white">
       <div class="NavBar">
         <img class="Icon" src={logo}></img>
-        <a class="Split" href="/sentimental-site">
+        <Link class="Split" to="/">
           Top
-        </a>
-        <a class="Split" href="/sentimental-site/concept">
+        </Link>
+        <Link class="Split" to="/concept">
           Concept
-        </a>
-        <a class="Split" href="/sentimental-site/story">
+        </Link>
+        <Link class="Split" to="/story">
           Story
-        </a>
-        <a class="Split" href="/sentimental-site/chars">
+        </Link>
+        <Link class="Split" to="/chars">
           Characters
-        </a>
-        <a class="Split" href="/sentimental-site/graphic">
+        </Link>
+        <Link class="Split" to="/graphic">
           Graphic
-        </a>
-        <a class="Split" href="/sentimental-site/system">
+        </Link>
+        <Link class="Split" to="/system">
           System
-        </a>
-        <a class="Split" href="/sentimental-site/download">
+        </Link>
+        <Link class="Split" to="/download">
           Download
-        </a>
-        <a class="Split" href="/sentimental-site/special">
+        </Link>
+        <Link class="Split" to="/special">
           Special
-        </a>
-        <a class="Split" href="/sentimental-site/spec">
+        </Link>
+        <Link class="Split" to="/spec">
           Spec
-        </a>
+        </Link>
       </div>
       <div class="paper">
         <p class="title">DOWNLOAD</p>
@@ -65,33 +66,33 @@ function Download() {
           </div>
         </div>
         <div class="footer">
-          <a class="Split" href="/sentimental-site">
+          <Link class="Split" to="/">
             Top
-          </a>
-          <a class="Split" href="/sentimental-site/concept">
+          </Link>
+          <Link class="Split" to="/concept">
             Concept
-          </a>
-          <a class="Split" href="/sentimental-site/story">
+          </Link>
+          <Link class="Split" to="/story">
             Story
-          </a>
-          <a class="Split" href="/sentimental-site/chars">
+          </Link>
+          <Link class="Split" to="/chars">
             Characters
-          </a>
-          <a class="Split" href="/sentimental-site/graphic">
+          </Link>
+          <Link class="Split" to="/graphic">
             Graphic
-          </a>
-          <a class="Split" href="/sentimental-site/system">
+          </Link>
+          <Link class="Split" to="/system">
             System
-          </a>
-          <a class="Split" href="/sentimental-site/download">
+          </Link>
+          <Link class="Split" to="/download">
             Download
-          </a>
-          <a class="Split" href="/sentimental-site/special">
+          </Link>
+          <Link class="Split" to="/special">
             Special
-          </a>
-          <a class="Split" href="/sentimental-site/spec">
+          </Link>
+          <Link class="Split" to="/spec">
             Spec
-          </a>
+          </Link>
         </div>
       </div>
     </div>
