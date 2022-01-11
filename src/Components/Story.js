@@ -1,5 +1,5 @@
 import React from "react";
-import classroom from "../img/home.png";
+import classroom from "../img/classroom.png";
 
 function Story() {
   return (

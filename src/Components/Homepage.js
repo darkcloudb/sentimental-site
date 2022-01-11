@@ -5,7 +5,7 @@ import home from "../img/home.png";
 function Homepage() {
   return (
     <div class="paper">
-      <img class="homeImg" src={sakura}></img>
+      <img class="homeImg" src={home}></img>
       <div class="chalkboard">
         {" "}
         What's New:
