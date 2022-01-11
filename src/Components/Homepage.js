@@ -11,28 +11,28 @@ function Homepage() {
         <a class="Split" href="/sentimental-site">
           Top
         </a>
-        <a class="Split" href="/concept">
+        <a class="Split" href="/sentimental-site/concept">
           Concept
         </a>
-        <a class="Split" href="/story">
+        <a class="Split" href="/sentimental-site/story">
           Story
         </a>
-        <a class="Split" href="/chars">
+        <a class="Split" href="/sentimental-site/chars">
           Characters
         </a>
-        <a class="Split" href="/graphic">
+        <a class="Split" href="/sentimental-site/graphic">
           Graphic
         </a>
-        <a class="Split" href="/system">
+        <a class="Split" href="/sentimental-site/system">
           System
         </a>
-        <a class="Split" href="/download">
+        <a class="Split" href="/sentimental-site/download">
           Download
         </a>
-        <a class="Split" href="/special">
+        <a class="Split" href="/sentimental-site/special">
           Special
         </a>
-        <a class="Split" href="/spec">
+        <a class="Split" href="/sentimental-site/spec">
           Spec
         </a>
       </div>

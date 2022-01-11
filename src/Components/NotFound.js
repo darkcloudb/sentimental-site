@@ -5,7 +5,7 @@ function NotFound() {
   return (
     <h5>
       404 ERROR!
-      <Link to="/">Go back.</Link>
+      <Link to="/sentimental-site">Go back.</Link>
     </h5>
   );
 }
