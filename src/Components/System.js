@@ -1,6 +1,6 @@
 import React from "react";
-import choice from "../img/home.png";
-import outcome from "../img/sakura_home.jpeg";
+import choice from "../img/choice.png";
+import outcome from "../img/outcome.png";
 
 function System() {
   return (

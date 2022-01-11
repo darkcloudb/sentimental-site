@@ -263,6 +263,7 @@ p::first-letter {
   height: 266px;
   width: 266px;
   box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.5);
+  background-color: white;
 }
 
 .stickyChar {

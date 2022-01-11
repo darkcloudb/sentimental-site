@@ -1,16 +1,13 @@
 import React from "react";
-import title from "../img/home.png";
-import screenshot from "../img/home.png";
+import title from "../img/Title.png";
+import screenshot from "../img/screenshot.png";
 import SL from "../img/sentimental.jpeg";
 import yuna from "../img/yuna itou.jpeg";
 
 function Download() {
   return (
     <div class="paper">
-      <p class="title">
-        DOWNLOAD&nbsp;
-        <a href="/">Top</a>
-      </p>
+      <p class="title">DOWNLOAD</p>
       <div class="white">
         <div class="bannerBox">「Sentimental Love」 Download</div>
         <div class="dlcontainer">
