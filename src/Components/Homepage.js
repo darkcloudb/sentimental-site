@@ -8,7 +8,7 @@ function Homepage() {
     <div class="white">
       <div class="NavBar">
         <img class="Icon" src={logo}></img>
-        <a class="Split" href="/">
+        <a class="Split" href="/sentimental-site">
           Top
         </a>
         <a class="Split" href="/concept">
