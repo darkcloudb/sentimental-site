@@ -68,47 +68,47 @@ function Homepage() {
           </ul>
         </div>
         <div class="container">
-          <a class="nocss" href="/story/">
+          <a class="nocss" href="/sentimental-site/story/">
             <div class="banner">Story</div>
           </a>
-          <a class="nocss" href="/chars/">
+          <a class="nocss" href="/sentimental-site/chars/">
             <div class="banner">Characters</div>
           </a>
         </div>
         <div class="container">
-          <a class="nocss" href="/download/">
+          <a class="nocss" href="/sentimental-site/download/">
             <div class="banner">Download</div>
           </a>
-          <a class="nocss" href="/spec/">
+          <a class="nocss" href="/sentimental-site/spec/">
             <div class="banner">About</div>
           </a>
         </div>
         <div class="footer">
-          <a class="Split" href="/">
+          <a class="Split" href="/sentimental-site">
             Top
           </a>
-          <a class="Split" href="/concept">
+          <a class="Split" href="/sentimental-site/concept">
             Concept
           </a>
-          <a class="Split" href="/story">
+          <a class="Split" href="/sentimental-site/story">
             Story
           </a>
-          <a class="Split" href="/chars">
+          <a class="Split" href="/sentimental-site/chars">
             Characters
           </a>
-          <a class="Split" href="/graphic">
+          <a class="Split" href="/sentimental-site/graphic">
             Graphic
           </a>
-          <a class="Split" href="/system">
+          <a class="Split" href="/sentimental-site/system">
             System
           </a>
-          <a class="Split" href="/download">
+          <a class="Split" href="/sentimental-site/download">
             Download
           </a>
-          <a class="Split" href="/special">
+          <a class="Split" href="/sentimental-site/special">
             Special
           </a>
-          <a class="Split" href="/spec">
+          <a class="Split" href="/sentimental-site/spec">
             Spec
           </a>
         </div>
