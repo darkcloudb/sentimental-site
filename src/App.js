@@ -19,14 +19,14 @@ function App() {
       {/* <NavBar /> */}
       <Routes>
         <Route path="/" element={<Homepage />} />
-        <Route path="/concept" element={<Concept />} />
-        <Route path="/story" element={<Story />} />
-        <Route path="/chars" element={<Characters />} />
-        <Route path="/graphic" element={<Graphic />} />
-        <Route path="/system" element={<System />} />
-        <Route path="/download" element={<Download />} />
-        <Route path="/special" element={<Special />} />
-        <Route path="/spec" element={<Spec />} />
+        <Route path="concept/" element={<Concept />} />
+        <Route path="story/" element={<Story />} />
+        <Route path="chars/" element={<Characters />} />
+        <Route path="graphic/" element={<Graphic />} />
+        <Route path="system/" element={<System />} />
+        <Route path="download/" element={<Download />} />
+        <Route path="special/" element={<Special />} />
+        <Route path="spec/" element={<Spec />} />
         <Route element={<NotFound />} />
       </Routes>
     </div>
