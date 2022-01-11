@@ -7,7 +7,7 @@ function System() {
   return (
     <div class="white">
       <div class="NavBar">
-        <img class="Icon" src={logo}></img>
+        <img class="Icon" src={logo} alt="icon"></img>
         <a class="Split" href="/">
           Top
         </a>
@@ -40,13 +40,13 @@ function System() {
         <div class="title">SYSTEM</div>
         <div class="sticky">
           <p class="quote">Choices</p>
-          <img class="homeImg" src={choice}></img>
+          <img class="homeImg" src={choice} alt="choice"></img>
           <p>
             Throughout the game you will be presented with dialogue options.
             Choosing an option will affect how your relationship with Chiho.
           </p>
           <p class="quote">System</p>
-          <img class="homeImg" src={outcome}></img>
+          <img class="homeImg" src={outcome} alt="outcome"></img>
           <p>
             Every dialogue option you take will either increase or decrease your
             friendship with Chiho. This value is hidden so save often and
