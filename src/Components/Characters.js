@@ -11,13 +11,13 @@ function Characters() {
           Yoshioka-senpai.
         </div>
 
-        <div class="bannerChiho"></div>
+        <div class="bannerYoshioka"></div>
         <div class="hide">
           Yoshioka-Senpai, a student a year above you and Chiho. He and Chiho
           both attend the art club and is your rival for her affection.
         </div>
 
-        <div class="bannerChiho"></div>
+        <div class="bannerYuu"></div>
         <div class="hide">
           Yuu, The protagonist and his actions are determined by you.
         </div>

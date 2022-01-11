@@ -189,6 +189,38 @@
   box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.5);
 }
 
+.bannerYoshioka {
+  border: 1px solid black;
+  margin: 2rem;
+  padding: 2rem;
+  width: 160px;
+  height: 200px;
+  background: url("img/Yoshioka.png") no-repeat;
+  border-radius: 25px;
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.7);
+}
+
+.bannerYoshioka:hover {
+  background: url("img/Yoshioka2.png") no-repeat;
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.5);
+}
+
+.bannerYuu {
+  border: 1px solid black;
+  margin: 2rem;
+  padding: 2rem;
+  width: 160px;
+  height: 200px;
+  background: url("img/Yuu.png") no-repeat;
+  border-radius: 25px;
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.7);
+}
+
+.bannerYuu:hover {
+  background: url("img/Yuu2.png") no-repeat;
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.5);
+}
+
 /* ****************Story*************** */
 
 p::first-letter {
@@ -253,6 +285,34 @@ p::first-letter {
 }
 
 .bannerChiho:hover + .hide {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  height: 266px;
+  width: 266px;
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.5);
+  background-color: white;
+}
+
+.bannerYoshioka:hover + .hide {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  height: 266px;
+  width: 266px;
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.5);
+  background-color: white;
+}
+
+.bannerYuu:hover + .hide {
   display: flex;
   align-items: center;
   border: 1px solid black;
