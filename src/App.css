@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  /* background-image: url("./img/sakura_home.jpeg") no-repeat; */
 }
 
 .App-logo {
@@ -36,6 +37,10 @@
     transform: rotate(360deg);
   }
 }
+
+/* .body {
+  background-image: url("./img/sakura_home.jpeg") no-repeat;
+} */
 /* *******************NavBar****************** */
 .NavBar {
   background-color: white;
@@ -43,6 +48,14 @@
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
+}
+
+.white {
+  background-color: white;
+  margin-left: 3%;
+  margin-right: 3%;
+  padding: 5%;
+  border: 3px solid lightpink;
 }
 
 .Icon {
@@ -66,7 +79,10 @@
 .paper {
   /* display: inline-block; */
   border: 1px solid black;
-  margin: 4rem;
+  /* margin: 4rem; */
+  /* margin-left: 4rem;
+  margin-right: 4rem;
+  margin-bottom: 4rem; */
   padding: 2rem;
   background-image: linear-gradient(
     rgba(0, 0, 255, 0.3) 0.5px,
@@ -195,13 +211,13 @@
   padding: 2rem;
   width: 160px;
   height: 200px;
-  background: url("img/Yoshioka.png") no-repeat;
+  background: url("img/chicho_banner.png") no-repeat;
   border-radius: 25px;
   box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.7);
 }
 
 .bannerYoshioka:hover {
-  background: url("img/Yoshioka2.png") no-repeat;
+  background: url("img/chicho_banner.png") no-repeat;
   box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.5);
 }
 

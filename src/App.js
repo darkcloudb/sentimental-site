@@ -16,7 +16,7 @@ import NotFound from "./Components/NotFound";
 function App() {
   return (
     <div className="App">
-      <NavBar />
+      {/* <NavBar /> */}
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/concept/" element={<Concept />} />
