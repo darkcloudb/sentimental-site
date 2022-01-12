@@ -52,8 +52,9 @@
 
 .white {
   background-color: white;
-  margin-left: 3%;
-  margin-right: 3%;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-bottom: 4rem;
   padding: 5%;
   border: 3px solid lightpink;
 }
@@ -91,16 +92,10 @@
   background-size: 100% 1rem;
   background-position-y: 24px;
   line-height: 2rem;
-  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.7);
   height: auto;
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.7);
   border-top: 5px solid black;
 }
-
-/* .paper {
-  background-size: 40px 40px;
-  background-image: linear-gradient(to right, grey 1px, transparent 1px),
-    linear-gradient(to bottom, grey 1px, transparent 1px);
-} */
 
 .homeImg {
   height: 90%;
@@ -259,6 +254,8 @@ p::first-letter {
   background-size: 100% 1rem;
   background-position-y: 50px; */
   height: auto;
+  margin-left: 3%;
+  margin-right: 3%;
   padding-bottom: 1%;
 }
 
