@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  /* background-image: url("./img/sakura_home.jpeg") no-repeat; */
+  background: url("./img/sakura_home.jpeg");
 }
 
 .App-logo {
@@ -38,9 +38,9 @@
   }
 }
 
-/* .body {
+.bg {
   background-image: url("./img/sakura_home.jpeg") no-repeat;
-} */
+}
 /* *******************NavBar****************** */
 .NavBar {
   background-color: white;
