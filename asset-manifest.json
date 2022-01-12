@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sentimental-site/static/css/main.67ae05c8.css",
-    "main.js": "/sentimental-site/static/js/main.3954ff84.js",
+    "main.css": "/sentimental-site/static/css/main.847114cf.css",
+    "main.js": "/sentimental-site/static/js/main.7475f3ad.js",
     "static/js/787.db575f0d.chunk.js": "/sentimental-site/static/js/787.db575f0d.chunk.js",
     "static/media/home.png": "/sentimental-site/static/media/home.155508c4ee39368b3c59.png",
     "static/media/classroom.png": "/sentimental-site/static/media/classroom.197e96d93ddf3e166839.png",
@@ -13,18 +13,24 @@
     "static/media/screenshot.png": "/sentimental-site/static/media/screenshot.c8e7f9c8f2309be1c4bc.png",
     "static/media/chiho_laugh2.png": "/sentimental-site/static/media/chiho_laugh2.925d44c6ea6cb17b0e67.png",
     "static/media/chiho_smile.png": "/sentimental-site/static/media/chiho_smile.b09c00b99b4733144169.png",
-    "static/media/Yuu2.png": "/sentimental-site/static/media/Yuu2.a24958072d2142b2776a.png",
-    "static/media/Yuu.png": "/sentimental-site/static/media/Yuu.6f196de4ba848f79104d.png",
+    "static/media/Yoshioka2.png": "/sentimental-site/static/media/Yoshioka2.0d6b98215a5df0442650.png",
+    "static/media/Yoshioka1.png": "/sentimental-site/static/media/Yoshioka1.e08d688b1d79483fd5dd.png",
+    "static/media/Yuu2.png": "/sentimental-site/static/media/Yuu2.388ea7f43d6f06503d7c.png",
+    "static/media/Yuu.png": "/sentimental-site/static/media/Yuu.5eb6d24e80b1f58c875b.png",
     "static/media/chiho2_banner.png": "/sentimental-site/static/media/chiho2_banner.148c4c853c5cefd02e40.png",
+    "static/media/Yuu_banner.png": "/sentimental-site/static/media/Yuu_banner.a8d6c56be89a7eaf87dd.png",
+    "static/media/Yoshioka2_banner.png": "/sentimental-site/static/media/Yoshioka2_banner.18a26ce63a9eccdb7a26.png",
+    "static/media/Yuu2_banner.png": "/sentimental-site/static/media/Yuu2_banner.6efe74122bcb0050dfc0.png",
     "static/media/chicho_banner.png": "/sentimental-site/static/media/chicho_banner.e6dd8bb72f9cfa2ebfdc.png",
+    "static/media/Yoshioka1_banner.png": "/sentimental-site/static/media/Yoshioka1_banner.c4374a9c0cee6f10fb6c.png",
     "static/media/logo.svg": "/sentimental-site/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/sentimental-site/index.html",
-    "main.67ae05c8.css.map": "/sentimental-site/static/css/main.67ae05c8.css.map",
-    "main.3954ff84.js.map": "/sentimental-site/static/js/main.3954ff84.js.map",
+    "main.847114cf.css.map": "/sentimental-site/static/css/main.847114cf.css.map",
+    "main.7475f3ad.js.map": "/sentimental-site/static/js/main.7475f3ad.js.map",
     "787.db575f0d.chunk.js.map": "/sentimental-site/static/js/787.db575f0d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.67ae05c8.css",
-    "static/js/main.3954ff84.js"
+    "static/css/main.847114cf.css",
+    "static/js/main.7475f3ad.js"
   ]
 }
