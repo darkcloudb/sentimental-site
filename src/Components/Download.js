@@ -48,6 +48,28 @@ function Download() {
             <img class="dlImg" src={screenshot}></img>
           </div>
           <p>Game can be downloaded here from Google</p>
+          <table class="downloadHere">
+            <tr>
+              <th>Download</th>
+              <th>Notes</th>
+            </tr>
+            <tr>
+              <td>
+                <Link class="linknocss" to="/">
+                  Windows Demo
+                </Link>
+              </td>
+              <td class="linknocss">Demo v1.01</td>
+            </tr>
+            <tr>
+              <td>
+                <Link class="linknocss" to="/">
+                  Mac Demo
+                </Link>
+              </td>
+              <td class="linknocss">Demo v1.02</td>
+            </tr>
+          </table>
           <div class="bannerBox">「Sentimental Love」Opening</div>
           <div class="dlcontainer">
             <img class="dlImg" src={SL}></img>
@@ -56,6 +78,28 @@ function Download() {
             Song: Sentimental Love <br></br>
             Artist: みみめめMIMI | MimimemeMIMI
           </div>
+          <table class="downloadHere">
+            <tr>
+              <th>Download</th>
+              <th>Name</th>
+            </tr>
+            <tr>
+              <td>
+                <Link class="linknocss" to="/">
+                  Song
+                </Link>
+              </td>
+              <td class="linknocss">Song</td>
+            </tr>
+            <tr>
+              <td>
+                <Link class="linknocss" to="/">
+                  Video
+                </Link>
+              </td>
+              <td class="linknocss">Opening Video</td>
+            </tr>
+          </table>
           <div class="bannerBox">「Sentimental Love」Ending</div>
           <div class="dlcontainer">
             <img class="dlImg" src={yuna}></img>
@@ -64,6 +108,28 @@ function Download() {
             Song: Alone Again<br></br>
             Artist: 伊藤 由奈 | Yuna Ito
           </div>
+          <table class="downloadHere">
+            <tr>
+              <th>Download</th>
+              <th>Name</th>
+            </tr>
+            <tr>
+              <td>
+                <Link class="linknocss" to="/">
+                  Song
+                </Link>
+              </td>
+              <td class="linknocss">Song</td>
+            </tr>
+            <tr>
+              <td>
+                <Link class="linknocss" to="/">
+                  Video
+                </Link>
+              </td>
+              <td class="linknocss">Opening Video</td>
+            </tr>
+          </table>
         </div>
         <div class="footer">
           <Link class="Split" to="/">

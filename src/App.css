@@ -189,6 +189,52 @@
   box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.7);
 }
 
+.bannerY {
+  border: 1px solid black;
+  margin: 2rem;
+  margin-left: 4rem;
+  padding: 2rem;
+  /* width: 250px;
+  height: 15%; */
+  width: 275px;
+  height: 30px;
+  background: url("img/Yoshioka1_banner.png") no-repeat;
+  background-color: lightskyblue;
+  border-radius: 25px;
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.7);
+  font-size: large;
+  font-family: cursive;
+}
+
+.bannerY:hover {
+  background: url("img/Yoshioka2_banner.png") no-repeat;
+  background-color: lightpink;
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.7);
+}
+
+.bannerM {
+  border: 1px solid black;
+  margin: 2rem;
+  margin-left: 4rem;
+  padding: 2rem;
+  /* width: 250px;
+  height: 15%; */
+  width: 275px;
+  height: 30px;
+  background: url("img/Yuu_banner.png") no-repeat;
+  background-color: lightskyblue;
+  border-radius: 25px;
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.7);
+  font-size: large;
+  font-family: cursive;
+}
+
+.bannerM:hover {
+  background: url("img/Yuu2_banner.png") no-repeat;
+  background-color: lightpink;
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.7);
+}
+
 .bannerChiho {
   border: 1px solid black;
   margin: 2rem;
@@ -212,13 +258,13 @@
   padding: 2rem;
   width: 160px;
   height: 200px;
-  background: url("img/chicho_banner.png") no-repeat;
+  background: url("img/Yoshioka1.png") no-repeat;
   border-radius: 25px;
   box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.7);
 }
 
 .bannerYoshioka:hover {
-  background: url("img/chicho_banner.png") no-repeat;
+  background: url("img/Yoshioka2.png") no-repeat;
   box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.5);
 }
 
@@ -240,20 +286,20 @@
 
 /* ****************Story*************** */
 
-p::first-letter {
+/* p::first-letter {
   font-size: 200%;
-}
+} */
 
 .sticky {
   background-color: lightgoldenrodyellow;
   box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.7);
   /* background-image: linear-gradient(
-    rgba(0, 255, 255, 0.3) 1px,
+    rgba(0, 255, 255, 0.4) 1px,
     transparent 0px
   );
-  background-size: 100% 1rem;
-  background-position-y: 50px; */
-  height: auto;
+  background-size: 100% 2.75rem;
+  background-position-y: 50px;
+  height: auto; */
   margin-left: 3%;
   margin-right: 3%;
   padding-bottom: 1%;
@@ -305,7 +351,7 @@ p::first-letter {
 
 .bannerChiho:hover + .hide {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   border: 1px solid black;
   border-radius: 25px;
   padding: 1%;
@@ -319,7 +365,7 @@ p::first-letter {
 
 .bannerYoshioka:hover + .hide {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   border: 1px solid black;
   border-radius: 25px;
   padding: 1%;
@@ -357,4 +403,35 @@ p::first-letter {
   display: flex;
   justify-content: space-evenly;
   height: auto;
+}
+/* *************Download************** */
+
+.downloadHere {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.downloadHere td,
+.downloadHere th {
+  border: 1px solid red;
+  padding: 8px;
+}
+
+.downloadHere tr:hover {
+  background-color: white;
+}
+
+.downloadHere th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: pink;
+  color: red;
+  font-weight: bold;
+}
+
+.linknocss {
+  font-size: small;
+  color: red;
 }

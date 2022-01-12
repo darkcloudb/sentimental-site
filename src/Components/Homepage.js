@@ -44,15 +44,11 @@ function Homepage() {
           What's New:
           <ul>
             1/10/2022 Website Updated to include: <br></br>
-            <ul>
-              * System<br></br>* Download
-            </ul>
+            <ul>Additional site pages added.</ul>
           </ul>
           <ul>
             1/7/2022 Website Pages Complete: <br></br>
-            <ul>
-              * Top<br></br>* Story<br></br>* Characters
-            </ul>
+            <ul>Website updated!</ul>
           </ul>
           <ul>1/4/2022 Website Development began!</ul>
           <ul>
@@ -73,12 +69,12 @@ function Homepage() {
             <div class="banner">Story</div>
           </Link>
           <Link class="nocss" to="/chars/">
-            <div class="banner">Characters</div>
+            <div class="bannerY">Characters</div>
           </Link>
         </div>
         <div class="container">
           <Link class="nocss" to="/download/">
-            <div class="banner">Download</div>
+            <div class="bannerM">Download</div>
           </Link>
           <Link class="nocss" to="/spec/">
             <div class="banner">About</div>
