@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sentimental-site/static/css/main.7cf831ef.css",
+    "main.css": "/sentimental-site/static/css/main.67ae05c8.css",
     "main.js": "/sentimental-site/static/js/main.3954ff84.js",
     "static/js/787.db575f0d.chunk.js": "/sentimental-site/static/js/787.db575f0d.chunk.js",
     "static/media/home.png": "/sentimental-site/static/media/home.155508c4ee39368b3c59.png",
@@ -19,12 +19,12 @@
     "static/media/chicho_banner.png": "/sentimental-site/static/media/chicho_banner.e6dd8bb72f9cfa2ebfdc.png",
     "static/media/logo.svg": "/sentimental-site/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/sentimental-site/index.html",
-    "main.7cf831ef.css.map": "/sentimental-site/static/css/main.7cf831ef.css.map",
+    "main.67ae05c8.css.map": "/sentimental-site/static/css/main.67ae05c8.css.map",
     "main.3954ff84.js.map": "/sentimental-site/static/js/main.3954ff84.js.map",
     "787.db575f0d.chunk.js.map": "/sentimental-site/static/js/787.db575f0d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7cf831ef.css",
+    "static/css/main.67ae05c8.css",
     "static/js/main.3954ff84.js"
   ]
 }
