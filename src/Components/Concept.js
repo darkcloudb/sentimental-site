@@ -19,8 +19,8 @@ function Concept() {
         <Link class="Split" to="/chars">
           Characters
         </Link>
-        <Link class="Split" to="/graphic">
-          Graphic
+        <Link class="Split" to="/reason">
+          Reason
         </Link>
         <Link class="Split" to="/system">
           System

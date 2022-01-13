@@ -6,7 +6,7 @@ import Homepage from "./Components/Homepage";
 import Concept from "./Components/Concept";
 import Story from "./Components/Story";
 import Characters from "./Components/Characters";
-import Graphic from "./Components/Graphic";
+import Reason from "./Components/Reason";
 import System from "./Components/System";
 import Download from "./Components/Download";
 import Special from "./Components/Special";
@@ -22,7 +22,7 @@ function App() {
         <Route path="/concept" element={<Concept />} />
         <Route path="/story" element={<Story />} />
         <Route path="/chars" element={<Characters />} />
-        <Route path="/graphic" element={<Graphic />} />
+        <Route path="/reason" element={<Reason />} />
         <Route path="/system" element={<System />} />
         <Route path="/download" element={<Download />} />
         <Route path="/special" element={<Special />} />

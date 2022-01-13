@@ -18,8 +18,8 @@ function NavBar() {
       <a class="Split" href="/chars">
         Characters
       </a>
-      <a class="Split" href="/graphic">
-        Graphic
+      <a class="Split" href="/reason">
+        Reason
       </a>
       <a class="Split" href="/system">
         System
