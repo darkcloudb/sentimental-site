@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../img/logo.png";
 import { Link } from "react-router-dom";
+import concept from "../img/concept.jpg";
 
 function Concept() {
   return (
@@ -34,6 +35,19 @@ function Concept() {
         <Link class="Split" to="/spec">
           Spec
         </Link>
+      </div>
+      <div class="paper">
+        <div class="title">CONCEPT</div>
+        <div class="sticky">
+          <p class="writing">
+            <p class="quote">You were always together yet...</p>
+            <div class="container">
+              <img class="polaroid" src={concept}></img>
+              Chiho and you were inseperable during elementary and middle school
+              years. Yet in high school things began to change...
+            </div>
+          </p>
+        </div>
       </div>
       Concept
     </div>

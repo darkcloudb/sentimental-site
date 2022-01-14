@@ -342,11 +342,8 @@
   -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-  /* -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-  z-index: 0;
-  position: relative; */
+  max-width: 300px;
+  transform: rotate(20deg);
 }
 
 .bannerChiho:hover + .hide {
@@ -436,4 +433,20 @@
 .linknocss {
   font-size: small;
   color: red;
+}
+/* ****************Concept*************** */
+
+.conceptContain {
+  display: flex;
+  align-content: baseline;
+}
+
+.conImg {
+  height: 70%;
+  width: 70%;
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.7);
+}
+
+.conQuote {
+  max-width: 200px;
 }
