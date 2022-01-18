@@ -41,15 +41,45 @@ function Concept() {
         <div class="sticky">
           <p class="writing">
             <p class="quote">You were always together yet...</p>
-            <div class="container">
+            <div class="conceptContainer">
+              <p class="conQuote">
+                Chiho and you were inseperable during elementary and middle
+                school years. Yet in high school things began to change...
+              </p>
               <img class="polaroid" src={concept}></img>
-              Chiho and you were inseperable during elementary and middle school
-              years. Yet in high school things began to change...
             </div>
           </p>
         </div>
+        <div class="footer">
+          <Link class="Split" to="/">
+            Top
+          </Link>
+          <Link class="Split" to="/concept">
+            Concept
+          </Link>
+          <Link class="Split" to="/story">
+            Story
+          </Link>
+          <Link class="Split" to="/chars">
+            Characters
+          </Link>
+          <Link class="Split" to="/reason">
+            Reason
+          </Link>
+          <Link class="Split" to="/system">
+            System
+          </Link>
+          <Link class="Split" to="/download">
+            Download
+          </Link>
+          <Link class="Split" to="/special">
+            Special
+          </Link>
+          <Link class="Split" to="/spec">
+            Spec
+          </Link>
+        </div>
       </div>
-      Concept
     </div>
   );
 }
