@@ -452,3 +452,31 @@
   max-width: auto;
   margin: 0px;
 }
+/* ******************Special****************** */
+
+.arrow-up {
+  display: flex;
+  margin: auto;
+  width: 0;
+  height: 0;
+  border-left: 250px solid transparent;
+  border-right: 250px solid transparent;
+
+  border-bottom: 250px solid lightpink;
+  /* background-color: transparent; */
+}
+
+.line {
+  position: absolute;
+  top: auto;
+  left: 0px;
+  width: 50%;
+  height: 275px;
+  border-right: solid 2px lightpink;
+  z-index: 9999;
+}
+
+.name-down {
+  display: flex;
+  flex-direction: column;
+}

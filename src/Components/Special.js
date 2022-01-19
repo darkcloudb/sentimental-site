@@ -43,11 +43,10 @@ function Special() {
         <p class="title">SPECIAL</p>
         <div class="sticky">
           <p class="quote">Character Design</p>
-          <i class="fa fa-heart-o">
-            <img src={chiho_smile}></img>
-            <img src={heart}></img>
-            <img src={Yuu}></img>
-          </i>
+          <div class="arrow-up"></div>
+          <img src={chiho_smile}></img>
+          <dic class="line"></dic>
+          <img src={Yuu}></img>
           <p class="writing">Created using: Sutemo's Character Creator</p>
           <p class="quote">Background Images</p>
           <img class="homeImg" src={classroom}></img>
@@ -58,7 +57,6 @@ function Special() {
           <p class="writing">Made with Ren'Py and Python</p>
         </div>
       </div>
-      Special Stuff
     </div>
   );
 }
