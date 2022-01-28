@@ -7,6 +7,11 @@ import logo from "../img/logo.png";
 import { Link } from "react-router-dom";
 
 function Download() {
+  function dlWin() {
+    window.open(
+      "https://drive.google.com/file/d/1KA1B2KXk6MO2gjz6XtxdcVgSzdqkozrA/view?usp=sharing"
+    );
+  }
   return (
     <div class="white">
       <div class="NavBar">
@@ -55,17 +60,23 @@ function Download() {
             </tr>
             <tr>
               <td>
-                <Link class="linknocss" to="/">
+                <a
+                  class="linknocss"
+                  href="https://drive.google.com/file/d/1KA1B2KXk6MO2gjz6XtxdcVgSzdqkozrA/view?usp=sharing"
+                >
                   Windows Demo
-                </Link>
+                </a>
               </td>
-              <td class="linknocss">Demo v1.01</td>
+              <td class="linknocss">Demo v1.02</td>
             </tr>
             <tr>
               <td>
-                <Link class="linknocss" to="/">
+                <a
+                  class="linknocss"
+                  href="https://drive.google.com/file/d/10We3-8CALW97iI8XK_BKVQT7wGAbcRpi/view?usp=sharing"
+                >
                   Mac Demo
-                </Link>
+                </a>
               </td>
               <td class="linknocss">Demo v1.02</td>
             </tr>
