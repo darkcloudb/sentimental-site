@@ -344,7 +344,7 @@
   -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   max-width: 300px;
-  transform: rotate(-17deg);
+  transform: rotate(-14deg);
   /* float: right; */
 }
 
@@ -453,8 +453,9 @@
 }
 
 .conQuote {
-  max-width: 150px;
-  /* margin: 0px; */
+  max-width: 250px;
+  /* margin: auto; */
+  margin: 10px 100px;
   float: right;
 }
 /* ******************Special****************** */
