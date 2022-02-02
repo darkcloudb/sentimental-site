@@ -330,6 +330,7 @@
 /* **************Character****************** */
 .hide {
   display: none;
+  /* align-items: baseline; */
 }
 
 .polaroid {
@@ -453,7 +454,7 @@
 
 .conQuote {
   max-width: 150px;
-  margin: 0px;
+  /* margin: 0px; */
   float: right;
 }
 /* ******************Special****************** */

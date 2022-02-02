@@ -52,7 +52,7 @@ function Download() {
             <img class="dlImg" src={title}></img>
             <img class="dlImg" src={screenshot}></img>
           </div>
-          <p>Game can be downloaded here from Google</p>
+          <p>Game can be downloaded from links below ↓</p>
           <table class="downloadHere">
             <tr>
               <th>Download</th>
@@ -92,7 +92,7 @@ function Download() {
           <table class="downloadHere">
             <tr>
               <th>Download</th>
-              <th>Name</th>
+              <th>Info</th>
             </tr>
             <tr>
               <td>
@@ -122,7 +122,7 @@ function Download() {
           <table class="downloadHere">
             <tr>
               <th>Download</th>
-              <th>Name</th>
+              <th>Info</th>
             </tr>
             <tr>
               <td>

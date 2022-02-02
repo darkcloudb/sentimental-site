@@ -56,6 +56,35 @@ function Special() {
           <p class="quote">Engine</p>
           <p class="writing">Made with Ren'Py and Python</p>
         </div>
+        <div class="footer">
+          <Link class="Split" to="/">
+            Top
+          </Link>
+          <Link class="Split" to="/concept">
+            Concept
+          </Link>
+          <Link class="Split" to="/story">
+            Story
+          </Link>
+          <Link class="Split" to="/chars">
+            Characters
+          </Link>
+          <Link class="Split" to="/reason">
+            Reason
+          </Link>
+          <Link class="Split" to="/system">
+            System
+          </Link>
+          <Link class="Split" to="/download">
+            Download
+          </Link>
+          <Link class="Split" to="/special">
+            Special
+          </Link>
+          <Link class="Split" to="/spec">
+            Spec
+          </Link>
+        </div>
       </div>
     </div>
   );
