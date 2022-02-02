@@ -343,7 +343,8 @@
   -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   max-width: 300px;
-  transform: rotate(20deg);
+  transform: rotate(-20deg);
+  /* float: right; */
 }
 
 .bannerChiho:hover + .hide {
@@ -437,7 +438,9 @@
 /* ****************Concept*************** */
 
 .conceptContain {
-  flex-wrap: wrap;
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
 }
 
 .conImg {
@@ -449,8 +452,9 @@
 }
 
 .conQuote {
-  max-width: auto;
+  max-width: 150px;
   margin: 0px;
+  float: right;
 }
 /* ******************Special****************** */
 
