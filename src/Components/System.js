@@ -51,7 +51,10 @@ function System() {
           <p>
             Every dialogue option you take will either increase or decrease your
             friendship with Chiho. This value is hidden so save often and
-            experiment.
+            experiment. As of version 1.1 of the game, each decision you make
+            alters a hidden value that determines your relationship status with
+            Chiho. Certain choices in the game can only be selected when a
+            certain level is met.
           </p>
         </div>
         <div class="footer">

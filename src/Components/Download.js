@@ -71,6 +71,14 @@ function Download() {
             </tr>
             <tr>
               <td>
+                <a class="linknocss" href="">
+                  Windows Demo
+                </a>
+              </td>
+              <td class="linknocss">Demo v1.1 Coming Soon!</td>
+            </tr>
+            <tr>
+              <td>
                 <a
                   class="linknocss"
                   href="https://drive.google.com/file/d/10We3-8CALW97iI8XK_BKVQT7wGAbcRpi/view?usp=sharing"
@@ -79,6 +87,15 @@ function Download() {
                 </a>
               </td>
               <td class="linknocss">Demo v1.02</td>
+            </tr>
+            <tr>
+              <td>
+                <a class="linknocss" href="">
+                  {" "}
+                  Mac Demo
+                </a>
+              </td>
+              <td class="linknocss">Demo v1.1 Coming Soon!</td>
             </tr>
           </table>
           <div class="bannerBox">「Sentimental Love」Opening</div>

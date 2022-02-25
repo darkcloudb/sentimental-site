@@ -44,7 +44,8 @@ function Concept() {
             <div class="conceptContainer">
               <p class="conQuote">
                 Chiho and you were inseperable during elementary and middle
-                school years. Yet in high school things began to change...
+                school years. Yet in high school things began to change... How
+                the story unfolds depends on your decisions throughout the game!
               </p>
               <img class="polaroid" src={concept}></img>
             </div>
