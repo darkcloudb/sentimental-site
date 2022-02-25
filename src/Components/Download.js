@@ -113,17 +113,27 @@ function Download() {
             </tr>
             <tr>
               <td>
-                <Link class="linknocss" to="/">
-                  Song
-                </Link>
+                <a
+                  class="linknocss"
+                  href="https://open.spotify.com/track/1lijFy2W01WbkhMc9AWF53"
+                >
+                  Purchase
+                </a>
               </td>
-              <td class="linknocss">Song</td>
+              <td class="linknocss">
+                <a
+                  class="linknocss"
+                  href="https://open.spotify.com/track/1lijFy2W01WbkhMc9AWF53"
+                >
+                  Spotify
+                </a>
+              </td>
             </tr>
             <tr>
               <td>
-                <Link class="linknocss" to="/">
+                <a class="linknocss" href="/">
                   Video
-                </Link>
+                </a>
               </td>
               <td class="linknocss">Opening Video</td>
             </tr>
@@ -143,9 +153,12 @@ function Download() {
             </tr>
             <tr>
               <td>
-                <Link class="linknocss" to="/">
-                  Song
-                </Link>
+                <a
+                  class="linknocss"
+                  href="https://www.amazon.com/Wish-Yuna-Ito/dp/B0015RB3V2"
+                >
+                  Purchase
+                </a>
               </td>
               <td class="linknocss">Song</td>
             </tr>
