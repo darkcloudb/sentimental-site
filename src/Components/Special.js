@@ -48,7 +48,10 @@ function Special() {
           <dic class="line"></dic>
           <img src={Yuu}></img>
           <p class="writing">Created using: Sutemo's Character Creator</p>
-          <p class="quote">Background Images</p>
+          <p class="quote">
+            Background Images by{" "}
+            <a href="https://noranekogames.itch.io/">NoranekoGames</a>
+          </p>
           <img class="homeImg" src={classroom}></img>
           <p class="writing">Created by:</p>
           <p class="quote">Music</p>
