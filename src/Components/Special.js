@@ -47,13 +47,18 @@ function Special() {
           <img src={chiho_smile}></img>
           <dic class="line"></dic>
           <img src={Yuu}></img>
-          <p class="writing">Created using: Sutemo's Character Creator</p>
+          <p class="quote">
+            Created using:{" "}
+            <a href="https://emily2.itch.io/sutemo">
+              Sutemo's Character Creator
+            </a>
+          </p>
           <p class="quote">
             Background Images by{" "}
             <a href="https://noranekogames.itch.io/">NoranekoGames</a>
           </p>
           <img class="homeImg" src={classroom}></img>
-          <p class="writing">Created by:</p>
+          <p class="writing">Created by: NoranekoGames</p>
           <p class="quote">Music</p>
           <p class="writing">Various artists and BGM were used.</p>
           <p class="quote">Engine</p>
