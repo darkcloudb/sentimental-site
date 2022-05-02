@@ -62,33 +62,33 @@ function Download() {
               <td>
                 <a
                   class="linknocss"
-                  href="https://drive.google.com/file/d/1KA1B2KXk6MO2gjz6XtxdcVgSzdqkozrA/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1o_90LTS0_5d9G1kHSMBI_HlZIeibDNJ-/view?usp=sharing"
                 >
                   Windows Demo
                 </a>
               </td>
-              <td class="linknocss">Demo v1.02</td>
+              <td class="linknocss">Latest Windows Demo</td>
             </tr>
-            <tr>
+            {/* <tr>
               <td>
                 <a class="linknocss" href="">
                   Windows Demo
                 </a>
               </td>
               <td class="linknocss">Demo v1.1 Coming Soon!</td>
-            </tr>
+            </tr> */}
             <tr>
               <td>
                 <a
                   class="linknocss"
-                  href="https://drive.google.com/file/d/10We3-8CALW97iI8XK_BKVQT7wGAbcRpi/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1_5qc1FNijfa6NqYDM5-AEyJraqUzNCb3/view?usp=sharing"
                 >
                   Mac Demo
                 </a>
               </td>
-              <td class="linknocss">Demo v1.02</td>
+              <td class="linknocss">Latest Mac Demo</td>
             </tr>
-            <tr>
+            {/* <tr>
               <td>
                 <a class="linknocss" href="">
                   {" "}
@@ -96,7 +96,7 @@ function Download() {
                 </a>
               </td>
               <td class="linknocss">Demo v1.1 Coming Soon!</td>
-            </tr>
+            </tr> */}
           </table>
           <div class="bannerBox">「Sentimental Love」Opening</div>
           <div class="dlcontainer">

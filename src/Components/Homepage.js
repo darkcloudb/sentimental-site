@@ -42,6 +42,10 @@ function Homepage() {
         <div class="chalkboard">
           {" "}
           What's New:
+          <ul>
+            5/1/2022 After short hiatus due to PC issues, project is back in
+            progress!
+          </ul>
           <ul>2/22/2022 Demo Version 1.1! in QA!</ul>
           <ul>
             1/10/2022 Website Updated to include: <br></br>
