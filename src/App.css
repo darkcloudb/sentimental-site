@@ -187,6 +187,7 @@
   background: url("img/chiho2_banner.png") no-repeat;
   background-color: lightpink;
   box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.7);
+  transition: 0.25s;
 }
 
 .bannerY {
@@ -210,6 +211,7 @@
   background: url("img/Yoshioka2_banner.png") no-repeat;
   background-color: lightpink;
   box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.7);
+  transition: 0.25s;
 }
 
 .bannerM {
@@ -233,6 +235,7 @@
   background: url("img/Yuu2_banner.png") no-repeat;
   background-color: lightpink;
   box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.7);
+  transition: 0.25s;
 }
 
 .bannerChiho {
@@ -250,6 +253,8 @@
 .bannerChiho:hover {
   background: url("img/chiho_laugh2.png") no-repeat;
   box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
+  transition: 0.25s;
 }
 
 .bannerYoshioka {
@@ -266,6 +271,8 @@
 .bannerYoshioka:hover {
   background: url("img/Yoshioka2.png") no-repeat;
   box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
+  transition: 0.25s;
 }
 
 .bannerYuu {
@@ -282,6 +289,8 @@
 .bannerYuu:hover {
   background: url("img/Yuu2.png") no-repeat;
   box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
+  transition: 0.25s;
 }
 
 /* ****************Story*************** */
@@ -329,8 +338,22 @@
 
 /* **************Character****************** */
 .hide {
-  display: none;
+  /* display: none; */
   /* align-items: baseline; */
+  display: flex;
+  width: 160px;
+  height: 200px;
+  opacity: 0;
+  color: white;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .polaroid {
@@ -348,46 +371,56 @@
   /* float: right; */
 }
 
-.bannerChiho:hover + .hide {
-  display: flex;
-  align-items: baseline;
+.bannerChiho:hover > .hide {
+  animation: fadeIn 2s;
+  transition: 1s;
+  /* display: absolute;
   border: 1px solid black;
+  margin: 2rem;
+  padding: 2rem;
+  width: 160px;
+  height: 200px;
   border-radius: 25px;
-  padding: 1%;
-  margin-top: 1%;
-  margin-bottom: 1%;
-  height: 266px;
-  width: 266px;
-  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.5);
-  background-color: white;
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.7);
+  opacity: 1;*/
+  display: block;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
 }
 
-.bannerYoshioka:hover + .hide {
-  display: flex;
-  align-items: baseline;
+.bannerYoshioka:hover > .hide {
+  animation: fadeIn 2s;
+  transition: 1s;
+  /* display: flex;
   border: 1px solid black;
+  margin: 2rem;
+  padding: 2rem;
+  width: 160px;
+  height: 200px;
   border-radius: 25px;
-  padding: 1%;
-  margin-top: 1%;
-  margin-bottom: 1%;
-  height: 266px;
-  width: 266px;
-  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.5);
-  background-color: white;
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.7); */
+  display: block;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
 }
 
-.bannerYuu:hover + .hide {
-  display: flex;
-  align-items: center;
+.bannerYuu:hover > .hide {
+  animation: fadeIn 2s;
+  transition: 1s;
+  /* display: flex;
   border: 1px solid black;
+  margin: 2rem;
+  padding: 2rem;
+  width: 160px;
+  height: 200px;
   border-radius: 25px;
-  padding: 1%;
-  margin-top: 1%;
-  margin-bottom: 1%;
-  height: 266px;
-  width: 266px;
-  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.5);
-  background-color: white;
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.7); */
+  display: block;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
 }
 
 .stickyChar {
@@ -402,6 +435,27 @@
   display: flex;
   justify-content: space-evenly;
   height: auto;
+}
+
+.image {
+  position: relative;
+  width: 260px;
+  height: 260px;
+}
+
+.image_img {
+  display: block;
+  width: 100%;
+}
+
+.image_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: black;
 }
 /* *************Download************** */
 

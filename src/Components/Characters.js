@@ -6,7 +6,7 @@ function Characters() {
   return (
     <div class="white">
       <div class="NavBar">
-        <img class="Icon" src={logo}></img>
+        <img class="Icon" src={logo} alt="logo"></img>
         <Link class="Split" to="/">
           Top
         </Link>
@@ -38,21 +38,25 @@ function Characters() {
       <div class="paper">
         <div class="title">CHARACTERS</div>
         <p class="charBack">
-          <div class="bannerChiho"></div>
-          <div class="hide">
-            Nakano Chiho, your childhood friend and potential girlfriend / wife
-            of Yoshioka-senpai.
+          <div class="bannerChiho">
+            <div class="hide">
+              Nakano Chiho, your childhood friend and potential girlfriend /
+              wife of Yoshioka-senpai.
+            </div>
           </div>
 
-          <div class="bannerYoshioka"></div>
-          <div class="hide">
-            Yoshioka-Senpai, a student a year above you and Chiho. He and Chiho
-            both attend the art club and is your rival for her affection.
+          <div class="bannerYoshioka">
+            <div class="hide">
+              Yoshioka-Senpai, a student a year above you and Chiho. He and
+              Chiho both attend the art club and is your rival for her
+              affection.
+            </div>
           </div>
 
-          <div class="bannerYuu"></div>
-          <div class="hide">
-            Yuu, The protagonist and his actions are determined by you.
+          <div class="bannerYuu">
+            <div class="hide">
+              Yuu, The protagonist and his actions are determined by you.
+            </div>
           </div>
         </p>
         <div class="footer">
